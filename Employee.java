@@ -5,7 +5,7 @@ public class Employee {
 	private int Id;
 	private String firstName;
 	private String lastName;
-	double Salary;
+	private double Salary;
 	
 	public Employee(int Id,String firstName,String lastName, double Salary) {
 		this.firstName=firstName;
