@@ -10,7 +10,7 @@ public class TestAuthor {
 		/*•	Create three objects with the defined constructors (one is with default, 
 		one is with two parameterized constructor and one is with three parameterized constructor)*/
 		
-         Author a1=new Author();
+                Author a1=new Author();
 		Author a2=new Author("Ankush ","Kedar");
 		Author a3=new Author("Ankush","Kedar","Peace");
 		
@@ -35,9 +35,9 @@ public class TestAuthor {
 		
 		//Display the values of first object by using getters
 		
-		System.out.println("\nFirst name is of second object :"+a1.getFirstName());
-		System.out.println("Second name is  of second object :"+a1.getLastName());
-		System.out.println("Book name is of second object :"+a1.getBookname());
+		System.out.println("\nFirst name is of first object :"+a1.getFirstName());
+		System.out.println("Second name is  of first object :"+a1.getLastName());
+		System.out.println("Book name is of first object :"+a1.getBookname());
 	 
 		
 		
